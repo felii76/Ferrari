@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #fff 50%, #bc0000 50%);
+}
+
+.logo{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 1%;
+    animation-name: ul;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+
+header li{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 15pt;
+    transition: 0.5s;
+}
+
+.bur{
+    margin-left: 24vmin;
+}
+
+section{
+    margin-top: -1%;
+    margin-left: 5%;
+    animation-name: section;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+
+section h1{
+    font-size: 205pt;
+    margin-bottom: -5%;
+    font-family: Bebas Neue;
+}
+
+.text2{
+    margin-bottom: 4%;
+    font-size: 30pt;
+    font-family: Bebas Neue;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: px;
+    transition: 0.6s;
+    font-size: 32pt;
+    font-family: Bebas Neue;
+    background-color: aliceblue;
+}
+
+.car{
+    margin-top: -15%;
+    margin-left: 25%;
+    animation-name: car;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+
